@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Мошенники СК Гран"
 date:   2020-09-01 01:20:12 +0300
 categories: jekyll update
