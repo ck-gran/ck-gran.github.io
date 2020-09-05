@@ -12,21 +12,21 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
-      <br/>
+      <br />
       <div class="cover-author-social">
-      {% if site.fraud-social-facebook %}
-      <p>
-        <a href="https://facebook.com/{{ site.fraud-social-facebook }}" target="_blank"><i class="fa fa-facebook"
+        {% if site.fraud-social-facebook %}
+        <p>
+          <a href="https://facebook.com/{{ site.fraud-social-facebook }}" target="_blank"><i class="fa fa-facebook"
               aria-hidden="true"></i><span>Страничка МОШЕННИКА</span></a>
-      </p>
-      {% endif %}
-      {% if site.fraud-social-facebook-group %}
-      <p>
-        <a href="https://facebook.com/{{ site.fraud-social-facebook-group }}" target="_blank"><i class="fa fa-users"
-            aria-hidden="true"></i><span>Группа МОШЕННИКА</span></a>
         </p>
-      {% endif %}
-    </div>
+        {% endif %}
+        {% if site.fraud-social-facebook-group %}
+        <p>
+          <a href="https://facebook.com/{{ site.fraud-social-facebook-group }}" target="_blank"><i class="fa fa-users"
+              aria-hidden="true"></i><span>Группа МОШЕННИКА</span></a>
+        </p>
+        {% endif %}
+      </div>
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -59,10 +59,11 @@ layout: default
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+      <p>{{site.time | date: '%Y'}}</p>
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   {{ content }}
 </div>
+
