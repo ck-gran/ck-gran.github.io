@@ -1,0 +1,13 @@
+<div сlass='other-articles'>
+    <h2>Другие статьи: </h2>
+    {% for tag in site.tags %}
+    {% if tag[0] == "Menu" %}
+      <ul>
+        {% for post in tag[1] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</div>
+
