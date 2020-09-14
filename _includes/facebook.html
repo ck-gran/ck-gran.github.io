@@ -1,0 +1,10 @@
+{% if site.facebook-comments %}
+<section class="comment-area">
+  <div class="comment-wrapper">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v8.0" nonce="dy3ysrMC"></script>
+    <div class="fb-comments" data-href="{{ page.url }}" data-numposts="10" data-width=""></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section> <!-- End Comment Area -->
+{% endif %}
