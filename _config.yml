@@ -29,7 +29,8 @@ fraud-social-facebook: andrei.granuk
 fraud-social-facebook-group: groups/543106036358181/ # add your Facebook handle
 
 # Disqus
-discus-identifier: ck-gran # mr-brown # add your discus identifier
+discus-identifier: #ck-gran # mr-brown # add your discus identifier
+facebook-comments: true
 
 # Tracker
 analytics: UA-177197913-1
