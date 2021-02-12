@@ -10,7 +10,7 @@ tags: ["Menu"] # add tag
 ### История об Андрее-Благодетеле ###
 Андрей Гранюк себя "Благодетелем" считает, а по факту на деньги кидает пенсионеров. <br><br>
 
-![Гранюк Андрей Ворует Деньги](/assets/img/blagodetel.png)<br>
+В данный момент пост удален, скриншот будет добавлен позднее (обновление от 2021-02-12)
 
 [Facebook 1](https://www.facebook.com/andrei.granuk/posts/135726961530612) [Facebook 2](https://www.facebook.com/groups/543106036358181/?post_id=569102020425249) [Facebook 3](https://www.facebook.com/groups/543106036358181/?post_id=568426223826162)
 
